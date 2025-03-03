@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "orphanet_explorer"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
   { name= "A. Tinakoua", email="a.tinakoua@gmail.com" },
 ]
