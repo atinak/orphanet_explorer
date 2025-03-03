@@ -73,6 +73,7 @@ class OrphanetDataManager:
 
 
 
+
     def extract_consequences_data(self,root: ET.Element, output_csv: str = None) -> pd.DataFrame:
         """Extract functional consequences data from XML root."""
         data = []
@@ -105,6 +106,7 @@ class OrphanetDataManager:
             df = pd.DataFrame(data)
         if output_csv: df.to_csv(output_csv, index=False, encoding="utf-8")            
         return df
+
 
 
 

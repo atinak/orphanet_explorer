@@ -5,6 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "orphanet_explorer"
+
 version = "0.2.0"
 authors = [
   { name= "A. Tinakoua", email="a.tinakoua@gmail.com" },
@@ -26,4 +27,8 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://github.com/atinak/orphanet_explorer"  #Update
+<<<<<<< HEAD
 "Bug Tracker" = "https://github.com/atinak/orphanet_explorer/issues" #Update
+=======
+"Bug Tracker" = "https://github.com/atinak/orphanet_explorer/issues" #Update
+>>>>>>> ad0915a0d127f590a53898871fb8e8e12d0057ff
